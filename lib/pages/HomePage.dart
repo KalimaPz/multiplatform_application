@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:multiplatform_application/pages/HomePage/LandingSection.dart';
+import 'package:multiplatform_application/pages/HomePage/SkillSection.dart';
+
+import 'HomePage/NavigatorBar.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key key}) : super(key: key);
@@ -18,6 +21,7 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           children: [
             LandingSection(),
+            SkillSection(),
           ],
         ),
       ),
